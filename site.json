@@ -1,0 +1,61 @@
+{
+  "repo": "VREAD-corp/veille-marques",
+  "brand": "Vigie Marques",
+  "logo_text": "Vigie <span>Marques</span>",
+  "lang": "fr",
+  "accent": "#6d28d9",
+  "updated": "2026-10-11",
+  "nav": {
+    "fr": [
+      [
+        "Accueil",
+        "index.html"
+      ],
+      [
+        "Le guide",
+        "guide.html"
+      ],
+      [
+        "Délais d'opposition",
+        "delais-opposition.html"
+      ],
+      [
+        "Chercher soi-même",
+        "rechercher.html"
+      ],
+      [
+        "Version payante",
+        "version-payante.html"
+      ]
+    ]
+  },
+  "i18n": {
+    "fr": {
+      "locale": "fr_FR",
+      "skip": "Aller au contenu",
+      "home": "",
+      "nav_label": "Navigation principale",
+      "switch": "English",
+      "footer_product": "Un produit de READ FRANCE SAS · Contenus sous licence CC BY 4.0",
+      "footer_links": [
+        [
+          "Mentions légales",
+          "mentions-legales.html"
+        ],
+        [
+          "Confidentialité",
+          "confidentialite.html"
+        ],
+        [
+          "CGV (projet)",
+          "cgv.html"
+        ],
+        [
+          "Code source et contact",
+          "{{repo_url}}"
+        ]
+      ],
+      "footer_tracking": "Aucun cookie, aucun traceur, aucune donnée personnelle collectée."
+    }
+  }
+}

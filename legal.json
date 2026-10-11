@@ -1,0 +1,9 @@
+{
+  "product_paid": "Veille de marque automatisée",
+  "price": "9 € HT par mois et par marque",
+  "kind": "subscription",
+  "paid_desc": "alerte hebdomadaire par courriel listant les nouvelles demandes de marques publiées par l'INPI dont le nom ressemble à la marque surveillée, dans les classes choisies.",
+  "limits": "Le service signale des ressemblances textuelles. Il ne donne aucun avis sur le risque de confusion, la validité d'une marque ou l'opportunité d'une opposition, qui relèvent d'un conseil en propriété industrielle ou d'un avocat.",
+  "brand": "Vigie Marques",
+  "updated": "2026-10-11"
+}
