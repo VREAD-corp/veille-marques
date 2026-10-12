@@ -1,6 +1,6 @@
 # Vigie Marques — surveiller sa marque soi-même
 
-Site : https://vread-corp.github.io/veille-marques/
+Site : https://outils.vread.fr/veille-marques/
 
 Guide et check-list gratuits pour surveiller une marque avec les outils officiels (DATA INPI, BOPI, eSearch plus, TMview),
 et explication des délais d'opposition (INPI 2 mois, EUIPO 3 mois). Un produit de READ FRANCE SAS.
