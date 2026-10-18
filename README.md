@@ -8,7 +8,7 @@ Guide et check-list gratuits pour surveiller une marque avec les outils officiel
 et explication des délais d'opposition (INPI 2 mois, EUIPO 3 mois). Une marque Jalonel (Jalonel est une marque de READ FRANCE SAS).
 Information générale : pas de conseil juridique ; non affilié à l'INPI ni à l'EUIPO.
 
-Téléchargement gratuit (GitHub Releases) : `guide-checklist-surveiller-sa-marque.pdf`
+Téléchargement gratuit (servi par le site, `/telechargements/`) : `guide-checklist-surveiller-sa-marque.pdf`
 
 Version payante (veille automatisée des ressemblances, 9 € HT/mois) : **pas encore disponible**, aucune commande possible.
 
@@ -33,8 +33,8 @@ Le site est servi à la racine `/` de `https://marques.jalonel.com/` (origine da
 IndexNow `5be19f56d46ca3d2553bee28ebfa8edd.txt` à la racine de `_site/`.
 
 ```sh
+npm i && node scripts/make_pdf.mjs   # PDF dans dist/, copiés par build.py dans _site/telechargements/
 python3 build.py && python3 tests/test_site.py
-npm i && node scripts/make_pdf.mjs
 ```
 
-Contenus : CC BY 4.0. Code : MIT. Signaler une erreur : onglet Issues (tickets publics, aucune donnée personnelle).
+Contenus : CC BY 4.0. Code : MIT. Contact et signalement d'erreur : contact@jalonel.com.
