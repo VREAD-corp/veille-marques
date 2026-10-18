@@ -2,8 +2,7 @@
 
 Site : https://marques.jalonel.com/
 
-2026-10-16: moved to https://marques.jalonel.com/ (brand Jalonel, a brand of READ FRANCE SAS). Ancienne adresse
-https://outils.vread.fr/veille-marques/ : redirection 301 de GitHub Pages vers la même page sur le nouveau domaine.
+2026-10-16: moved to https://marques.jalonel.com/ (brand Jalonel, a brand of READ FRANCE SAS).
 
 Guide et check-list gratuits pour surveiller une marque avec les outils officiels (DATA INPI, BOPI, eSearch plus, TMview),
 et explication des délais d'opposition (INPI 2 mois, EUIPO 3 mois). Une marque Jalonel (Jalonel est une marque de READ FRANCE SAS).
@@ -17,10 +16,10 @@ Version payante (veille automatisée des ressemblances, 9 € HT/mois) : **pas e
 
 `assets/mesure.js` (compteur d'audience anonyme, `v:2`, robots / navigateurs automatisés / `octave_notrack=1` comptés à
 part) et `assets/cro.js` (compteurs agrégés de comportement) sont copiés **à l'identique** depuis
-`VREAD-corp/octave-checkout` (`gas/web/`, ne jamais modifier les copies). Chargés sur chaque page par `build.py`
+`VREAD-corp/octave-checkout` (`gas/web/jalonel/`, copies Jalonel de `gas/web/` ; ne jamais modifier les copies). Chargés sur chaque page par `build.py`
 (`data-site="veille-marques"`, avec empreinte `?v=`), ils envoient l'action `track` au backend France `octave-pay-gas`, qui
 accepte ce site (`mesure.js` déduit l'identifiant `veille-marques` de l'hôte `marques.jalonel.com` ; `cro.js` :
-`data-hosts="marques.jalonel.com outils.vread.fr"`). Clics comptés : PDF gratuits (`free_download`) et page « version payante » (`cta_click`). Aucun cookie,
+`data-hosts="marques.jalonel.com"`). Clics comptés : PDF gratuits (`free_download`) et page « version payante » (`cta_click`). Aucun cookie,
 aucun identifiant, rien sous Do Not Track / GPC ; nos tests ajoutent `?octave_notrack=1`. Détails :
 `content/confidentialite.html`. Après une mise à jour du snippet maître : recopier les deux fichiers puis
 `node tests/cro.check.mjs assets/cro.js`.
